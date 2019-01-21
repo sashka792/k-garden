@@ -164,13 +164,13 @@ a, .btn {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.01em;
-  /*margin-right: 30px;*/
+  padding-right: 40px;
 }
 
 .nav-item a:hover {
   color: #5b0001;
   border-bottom: 2px solid #2f692f;
-  width: 95px;
+  /*width: 90px;*/
   padding-bottom: 5px;
 }
 
