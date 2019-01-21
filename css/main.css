@@ -227,6 +227,17 @@ a, .btn {
   margin-top: 65px;
 }
 
+.header .form-inline {
+  color: #5b0001; 
+}
+.form-inline .wrap-icon {
+  margin-left: 29px;
+}
+.wrap-icon i:hover {
+  color: #2f692f;
+  cursor: pointer;
+}
+
 /*Catalog (Каталог)*/
 
 .catalog {
