@@ -387,6 +387,11 @@ a, .btn {
                     
 /*-----Slider-----*/
 
+.carousel {
+  width: 100%;
+}
+
+
 .rev-slider {
   width: 95%;
   height: 75%;
