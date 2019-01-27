@@ -156,7 +156,9 @@ a, .btn {
   display: flex;
   justify-content: space-between;
 }
-
+.navbar-nav {
+  margin-left: 50px;
+}
 .nav-link {
   font-family: 'Montserrat-Regular';
   font-size: 15px;
@@ -465,12 +467,12 @@ a, .btn {
   display: block;
 }
 
-.about-us .test img {
+.about-us__pic {
   width: 100%;
 }
 
-.about-us .slider-content {
-
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 .about-us .slick-slider .slick-arrow {

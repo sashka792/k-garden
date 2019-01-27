@@ -5,14 +5,13 @@
 	<title>Сад Квілінського</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Slider -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet"/>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	
 	<!-- CSS Styles -->
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -28,9 +27,9 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse align-items-center" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <ul class="navbar-nav mt-2 mt-lg-0">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Головна<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#">Головна<span class=" sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Каталог</a>
@@ -45,15 +44,15 @@
                                 <a class="nav-link" href="#">Контакти</a>
                             </li>
                         </ul>
-                        <form class="form-inline my-2 my-lg-0">
+                        <form class="form-inline ml-auto my-2 my-lg-0">
                             <div class="wrap-icon">
-                            	<i class="fas fa-search"></i>
+                            	<i class="far fa-search"></i>
                             </div>
                             <div class="wrap-icon">
-                            	<i class="fas fa-user"></i>  
+                            	<i class="far fa-user"></i>  
                             </div>
                             <div class="wrap-icon">
-                            	<i class="fas fa-shopping-bag"></i>  
+                            	<i class="far fa-shopping-bag"></i>  
                             </div>
                         </form>
                     </div>
@@ -214,30 +213,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="slider-container">
-				  <div class="rev_slider">
-					    <div class="rev_slide">
-					      <div class="test text-center slider-content">
-					      	<img src="img/slider-pic1.jpg" alt="">
-					      </div>
-					    </div>
-					    <div class="rev_slide">
-					      <div class="test text-center slider-content">
-					      	<img src="img/slider-pic2.jpg" alt="">
-					      </div>
-					    </div>
-					    <div class="rev_slide">
-					      <div class="test text-center slider-content">
-					      	<img src="img/slider-pic3.jpg" alt="">
-					      </div>
-					    </div>
-				  </div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe width="1090" height="615" src="https://www.youtube.com/embed/dh2YDVt5DE8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="embed-responsive-item" allowfullscreen></iframe>
-				</div>
+				
 			</div>
 	</section>
 	<section id="reviews" class="reviews">
@@ -449,7 +425,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 	<!-- JavaScript Slider -->
-	<script>
+	?<script>
 		var rev = $('.rev_slider');
 		rev.on('init', function(event, slick, currentSlide) {
 		  var
@@ -478,7 +454,7 @@
 		  slick.$next = next;
 		  cur.removeClass('slick-next').removeClass('slick-sprev');
 		});
-
+	
 		rev.slick({
 		  speed: 1000,
 		  arrows: true,
@@ -499,6 +475,8 @@
 		  /*infinite: false,*/
 		});
 	</script>
-
+	
+	 <!-- LiveReload script -->
+	 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
