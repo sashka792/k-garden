@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Slider -->
-	
+
 	<!-- CSS Styles -->
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -213,7 +213,39 @@
 				</div>
 			</div>
 			<div class="row">
-				
+				<div class="col-lg-12">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img class="d-block w-100" src="img/slider-pic1.jpg" alt="First slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="img/slider-pic2.jpg" alt="Second slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="img/slider-pic3.jpg" alt="Third slide">
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="1090" height="615" src="https://www.youtube.com/embed/dh2YDVt5DE8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="embed-responsive-item" allowfullscreen></iframe>
+				</div>
 			</div>
 	</section>
 	<section id="reviews" class="reviews">
@@ -241,7 +273,6 @@
 							</p>
 						</a>
 					</div>
-					
 				</div>
 				<div class="col-lg-3">
 					<div class="client-card-wrap">
@@ -423,60 +454,8 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-	<!-- JavaScript Slider -->
-	?<script>
-		var rev = $('.rev_slider');
-		rev.on('init', function(event, slick, currentSlide) {
-		  var
-		    cur = $(slick.$slides[slick.currentSlide]),
-		    next = cur.next(),
-		    prev = cur.prev();
-		  prev.addClass('slick-sprev');
-		  next.addClass('slick-snext');
-		  cur.removeClass('slick-snext').removeClass('slick-sprev');
-		  slick.$prev = prev;
-		  slick.$next = next;
-		}).on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-		  console.log('beforeChange');
-		  var
-		    cur = $(slick.$slides[nextSlide]);
-		  console.log(slick.$prev, slick.$next);
-		  slick.$prev.removeClass('slick-sprev');
-		  slick.$next.removeClass('slick-snext');
-		  next = cur.next(),
-		    prev = cur.prev();
-		  prev.prev();
-		  prev.next();
-		  prev.addClass('slick-sprev');
-		  next.addClass('slick-snext');
-		  slick.$prev = prev;
-		  slick.$next = next;
-		  cur.removeClass('slick-next').removeClass('slick-sprev');
-		});
-	
-		rev.slick({
-		  speed: 1000,
-		  arrows: true,
-		  dots: false,
-		  focusOnSelect: true,
-		  prevArrow: '<button><span class="carousel-control-prev-icon"></span></button>',
-		  nextArrow: '<button><span class="carousel-control-next-icon"></span></button>',
-		  infinite: true,
-		  centerMode: true,
-		  slidesPerRow: 1,
-		  slidesToShow: 1,
-		  slidesToScroll: 1,
-		  centerPadding: '0',
-		  swipe: true,
-		  customPaging: function(slider, i) {
-		    return '';
-		  },
-		  /*infinite: false,*/
-		});
-	</script>
-	
 	 <!-- LiveReload script -->
-	 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+	</script>
 </body>
 </html>
