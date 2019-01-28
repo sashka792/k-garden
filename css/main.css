@@ -733,7 +733,9 @@ a, .btn {
 
 /* Large 992px - 1200px */
 @media screen and (max-width: 1200px) {
-  
+  .navbar-nav {
+     margin-left: 0; 
+}
 }
 
  /*Medium 768px - 992px*/
@@ -767,6 +769,15 @@ a, .btn {
   .client-card-wrap {
     text-align: center;
     margin-bottom: 25px;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .header .form-inline {
+    justify-content: center;
+  }
+  .form-inline .wrap-icon {
+    margin: 15px;
   }
 } 
 
