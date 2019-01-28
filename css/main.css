@@ -607,8 +607,8 @@ a, .btn {
 .contact-form {
   width: 360px;
   height: 630px;
-  /*background-color: #ffeeee;*/
-  background-color: red;
+  background-color: #ffeeee;
+  /*background-color: red;*/
   border-top-right-radius: 15px;
   /*text-align: center;*/
 }
@@ -638,7 +638,7 @@ a, .btn {
   height: 37px;
   border-bottom: 2px solid #c10000;
   margin-bottom: 20px;
-  width: 262px;
+  /*width: 262px;*/
   outline:none;
 }
 
@@ -676,7 +676,7 @@ a, .btn {
 .contact-info {
   margin-top: 42px;
   margin-left: 50px;
-  width: 262px;
+  /*width: 262px;*/
   font-family: 'GentiumPlus';
   font-size: 18px;
 }
@@ -793,7 +793,9 @@ a, .btn {
   .reg-form input:first-child {
     margin-top: 0;
   }
- 
+  .contact-info {
+    margin-left: 60px;
+  }
 }
 
 /* Extra small 320px - 576px */
