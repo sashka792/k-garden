@@ -1,4 +1,4 @@
-Fonts*/
+/*Fonts*/
 @font-face {
   font-family: 'Corinthia';
   src: url('../fonts/Corinthia.eot'); /* IE9 Compat Modes */
@@ -773,7 +773,7 @@ a, .btn {
     text-align: center;
     margin-bottom: 25px;
   }
-<<<<<<< HEAD
+
   .navbar-nav {
     text-align: center;
   }
@@ -782,12 +782,11 @@ a, .btn {
   }
   .form-inline .wrap-icon {
     margin: 15px;
-=======
+  }
 
   .contact-form {
     width: 100%;
     border-radius: 0;
->>>>>>> daaa06d640b52ded14c7bede2a7b78bcd4dc163b
   }
 } 
 
