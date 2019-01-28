@@ -142,6 +142,10 @@ a, .btn {
   border: 1px solid transparent;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 /*Header (Головний екран)*/
 .navigation {
   display: flex;
@@ -390,12 +394,15 @@ a, .btn {
 /*-----Slider-----*/
 
 
-.carousel {
+.carousel, .embed-responsive-16by9 {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
 
+.carousel {
+  margin-bottom: 40px;
+}
 
 .rev-slider {
   width: 95%;
@@ -550,15 +557,15 @@ a, .btn {
   letter-spacing: 0.01em;
   color: #000000;
   margin-bottom: 50px;
-  width: 90%;
 }
 
 .order-word {
   font-weight: bold;
 }
 
-.product-photo-1 {
-  margin-right: 65px;
+.product-photo {
+  max-width: 380px;
+  width: 100%;
 }
 .payment-text-1 {
   font-family: 'Ubuntu';
@@ -757,7 +764,10 @@ a, .btn {
   .no-padding-left {
     padding-left: 15px;
   }
-
+  .client-card-wrap {
+    text-align: center;
+    margin-bottom: 25px;
+  }
 } 
 
 /* Small 576px - 768px */
@@ -765,7 +775,17 @@ a, .btn {
   .footer-nav__item {
     margin-left: 20px;
   }
-  
+  .reg-form__form {
+
+  }
+  .reg-form input {
+    display: block;
+    margin: 20px auto 0;
+  }
+  .reg-form input:first-child {
+    margin-top: 0;
+  }
+ 
 }
 
 /* Extra small 320px - 576px */
