@@ -202,7 +202,6 @@ a, .btn {
 .offer__title {
   font-family: 'Corinthia';
   font-size:  85px;
-  font-style: bold;
   letter-spacing: 0.01em;
   color: #2f692f;
   margin-top: 140px;
@@ -740,18 +739,20 @@ a, .btn {
 @media screen and (max-width: 1200px) {
   .navbar-nav {
      margin-left: 0; 
-}
+  }
 }
 
  /*Medium 768px - 992px*/
 @media screen and (max-width: 992px) {
   .offer__title {
     font-size: 60px;
+    margin: 20px;
+    text-align: center;
   }
-
   .offer__subtitle {
     font-size: 16px;
     margin-left: 0;
+    text-align: center;
   }
 
   .offer-pic {
@@ -814,9 +815,7 @@ a, .btn {
   .footer-nav__item {
     margin-left: 20px;
   }
-  .reg-form__form {
 
-  }
   .reg-form input {
     display: block;
     margin: 20px auto 0;
@@ -846,6 +845,24 @@ a, .btn {
 
 /* Extra small 320px - 576px */
 @media screen and (max-width: 576px) {
+  .offer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .offer__title{
+    font-size: 50px;
+  }
+  .offer-pic{
+    display: flex;
+    margin: 50px auto 0px;
+  }
+  .offer__btn{
+    margin: 0 auto;
+  }
+  
   .company-name {
     width: 67%;
   }
