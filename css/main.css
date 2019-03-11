@@ -103,7 +103,6 @@ p {
 }
 
 ul, li {
-  display: block;
   padding: 0;
   margin: 0;
 }
@@ -172,7 +171,10 @@ a, .btn {
   letter-spacing: 0.01em;
   padding-right: 40px;
 }
-
+.nav-item{
+  display: flex;
+  justify-content: center;
+}
 .nav-item a:hover {
   color: #5b0001;
   border-bottom: 2px solid #2f692f;
