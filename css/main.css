@@ -785,10 +785,27 @@ a, .btn {
   .form-inline .wrap-icon {
     margin: 15px;
   }
-
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .contact-form__title{
+    margin: 0 auto;
+  }
+  .contact-form__form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
   .contact-form {
     width: 100%;
     border-radius: 0;
+  }
+  .contact-info{
+    margin: 30px auto;
   }
 } 
 
@@ -808,7 +825,22 @@ a, .btn {
     margin-top: 0;
   }
   .contact-info {
-    margin-left: 60px;
+    margin: 30px auto;
+  }
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .contact-form__title{
+    margin: 0 auto;
+  }
+  .contact-form__form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
   }
 }
 
@@ -816,5 +848,11 @@ a, .btn {
 @media screen and (max-width: 576px) {
   .company-name {
     width: 67%;
+  }
+
+  .contact-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 }
