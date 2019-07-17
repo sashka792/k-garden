@@ -145,7 +145,7 @@ a, .btn {
   margin-bottom: 20px;
 }
 
-/*Header (Головний екран)*/
+/*Header*/
 .navigation {
   display: flex;
   margin-top: 40px;
@@ -154,13 +154,18 @@ a, .btn {
 .header .navbar {
   width: 100%;
 }
-
+.navbar{
+  margin-top: 20px;
+}
+.logo {
+  width: 180px;
+}
 .menu {
   display: flex;
   justify-content: space-between;
 }
 .navbar-nav {
-  margin-left: 50px;
+  margin-left: 170px;
 }
 .nav-link {
   font-family: 'Montserrat-Regular';
